@@ -43,3 +43,22 @@ A full-stack Creator Dashboard with:
 ```bash
 git clone https://github.com/YourUsername/creator-dashboard.git
 cd creator-dashboard
+
+2.**Setup Backend**
+cd creator-dashboard-backend
+npm install
+# Create .env file:
+# MONGO_URI=YourMongoURI
+# JWT_SECRET=YourJWTSecret
+node index.js
+
+3.**Setup Frontend**
+bash
+Copy code
+cd ../creator-dashboard-frontend
+npm install
+npm start
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:5000
+
